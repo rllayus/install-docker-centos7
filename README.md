@@ -21,3 +21,6 @@ chcon -t svirt_sandbox_file_t /var/log/clic
 
 #Comando para iniciar el contenedor con el volumen
 docker run -p 8080:8080 -p 9990:9990 -p 8443:8443 -d -v /var/log/clic:/opt/jboss/wildfly/standalone/log/  --name clic wildfly /opt/jboss/wildfly/bin/standalone.sh -b 0.0.0.0 -bmanagement 0.0.0.0
+
+
+https://goldmann.pl/blog/2014/07/18/logging-with-the-wildfly-docker-image/
