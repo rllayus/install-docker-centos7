@@ -24,3 +24,7 @@ docker run -p 8080:8080 -p 9990:9990 -p 8443:8443 -d -v /var/log/clic:/opt/jboss
 
 
 https://goldmann.pl/blog/2014/07/18/logging-with-the-wildfly-docker-image/
+
+
+
+https://www.ibm.com/docs/en/z-logdata-analytics/5.1.0?topic=compose-relocating-docker-root-directory
