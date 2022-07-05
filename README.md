@@ -13,7 +13,7 @@ id -g jboss y id -u jboss
 
 #Crear un usuario con el mismo uid/gid en el host con los siguientes comando
 
-groupadd -r jboss -g 1000
+groupadd -r jboss -g 1000  
 useradd -u 1000 -r -g jboss -s /sbin/nologin -c "Registros de contenedores de WildFly" wildfly-logs
 
 chown administrador /var/log/clic
